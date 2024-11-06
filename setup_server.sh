@@ -30,6 +30,7 @@ sudo R -e '
 library(pacman)
 p_load(
 tidyverse,
+BiocManager
 )
 '
 
