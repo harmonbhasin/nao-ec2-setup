@@ -23,6 +23,7 @@ After running the setup scripts, install these productivity tools:
 - `shellcheck` - Shell script static analysis tool
 - `ruff` - Fast Python linter and formatter
 - `mypy` - Static type checker for Python
+- `delta` - Modern diff viewer for git with syntax highlighting
 
 ## Package Management
 
