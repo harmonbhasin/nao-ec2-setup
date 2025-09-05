@@ -20,6 +20,7 @@ After running the setup scripts, install these productivity tools:
 - `fzf` - Fuzzy finder for terminal
 - `tldr` - Simplified man pages
 - Claude Code - AI coding assistant
+- `gh` - GitHub CLI for managing repos, PRs, and issues
 - `shellcheck` - Shell script static analysis tool
 - `ruff` - Fast Python linter and formatter
 - `mypy` - Static type checker for Python
@@ -28,3 +29,7 @@ After running the setup scripts, install these productivity tools:
 ## Package Management
 
 Use `dnf` for package installation on AL2023 (Red Hat-based AMI). The older `yum` command is deprecated.
+
+## Shell Autocomplete
+
+Make sure to look for and install autocomplete for the tools you want to use - most modern development tools provide shell completion functionality.
