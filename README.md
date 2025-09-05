@@ -20,6 +20,9 @@ After running the setup scripts, install these productivity tools:
 - `fzf` - Fuzzy finder for terminal
 - `tldr` - Simplified man pages
 - Claude Code - AI coding assistant
+- `shellcheck` - Shell script static analysis tool
+- `ruff` - Fast Python linter and formatter
+- `mypy` - Static type checker for Python
 
 ## Package Management
 
