@@ -1,9 +1,26 @@
-# new-ec2-setup
-my setup for a new ec2-instance when working on NAO stuff
+# EC2 Instance Setup for NAO Development
 
+Automated setup scripts and configuration for Amazon Linux 2023 (AL2023) EC2 instances used in NAO development workflows.
 
-Make sure to download dotfiles, and also set email for github so that you can push commits and have it show up as you.
+## Setup Scripts
 
-ALso don't forget to add aws credentials.
+This repository contains scripts to automate the installation of common development tools and dependencies for NAO projects.
 
-As a rule of thumb use dnf to install packages (yum is older). Specifically, Amazon Linux 2023 (AL2023) AMI, which is a Red Hat-based distribution built by Amazon for use in AWS.
+## Prerequisites
+
+1. Download and configure dotfiles (consider using https://github.com/harmonbhasin/dotfiles)
+2. Set Git email for proper commit attribution: `git config --global user.email "your-email@example.com"`
+3. Configure AWS credentials for service access
+
+## Recommended Tools
+
+After running the setup scripts, install these productivity tools:
+- `rg` (ripgrep) - Fast code searching
+- `fd` - Fast file finder
+- `fzf` - Fuzzy finder for terminal
+- `tldr` - Simplified man pages
+- Claude Code - AI coding assistant
+
+## Package Management
+
+Use `dnf` for package installation on AL2023 (Red Hat-based AMI). The older `yum` command is deprecated.
